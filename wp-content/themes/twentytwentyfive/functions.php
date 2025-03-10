@@ -1,4 +1,4 @@
-<?php
+	<?php
 /**
  * Twenty Twenty-Five functions and definitions.
  *
