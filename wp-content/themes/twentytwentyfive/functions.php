@@ -157,5 +157,10 @@ if ( ! function_exists( 'twentytwentyfive_format_binding' ) ) :
 	}
 endif;
 
+function display_server_name() {
+    echo '<p style="position:fixed;bottom:10px;right:10px;background:#000;color:#fff;padding:5px;">Server: BRAIN STORM</p>';
+}
+add_action('wp_footer', 'display_server_name');
+
 
 
